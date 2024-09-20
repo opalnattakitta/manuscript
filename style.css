@@ -1,1 +1,21 @@
-body{ font-family: "EB Garamond", serif;}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+	font-family: "EB Garamond", serif;
+	font-size: 24px
+	padding: 24px
+}
+
+h1{
+	color:tomato;
+	font-size: 64px;
+}
+
+h2{
+	color: dodgerblue;
+	font-size: 50px;
+}
+
+p{
+	max-width: 65ch;
+}
