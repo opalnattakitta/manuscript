@@ -24,12 +24,13 @@ blockquote{
 	font-size: 40px;
 	font-style: italic;
 	text-align: right;
-	margin-left: 25%;
+	margin-left: 40%;
+	padding: 2%;
 }
 
 h1{
 	font-family: "Poppins", system-ui;
-	font-size: 100px;
+	font-size: 110px;
 	font-weight: 500;
 	text-transform: uppercase;
 }
@@ -41,13 +42,14 @@ h2{
 }
 
 section{
-	margin-left: 20%;
+	margin-left: 25%;
 	border-right: 10px;
 	font-family: 'Playfair', serif;
 }
 
 article{
 	margin: 5%;
+	margin-left: 13%;
 }
 
 footer{
@@ -55,7 +57,6 @@ footer{
 	font-size: 13px;
 	display: flex;
 	justify-content: center;
-	text-align: center;
 	background-color: gray;
 	color: #fff;
 }
@@ -64,12 +65,28 @@ aside{
 	font-family: 'Playfair', serif;
 	letter-spacing: 0.02em; 
 	text-indent: 40px;
+	column-count: 3;
+	column-width: 200px;
+	column-rule-width: thin;
+	column-rule-style: solid;
+	column-rule-color: black;
+	max-width: 80ch;
+	color: dimgray;
 }
 
 li{
 	text-indent: 20px;
 }
 
+hr {
+	border: none;
+	border-bottom: 1px solid chocolate;
+	overflow: visible;
+	text-align: center;
+	height: 75px;
+	opacity: 30%;
+	max-width: 100ch;
+  }
 .indent{
 	text-indent: 35px;
 }
@@ -85,9 +102,17 @@ li{
 	text-decoration-line: underline;
 }
 
+.blue{
+	color: Blue;
+}
+
+.chocolate{
+	color:chocolate;
+}
+
 #reading-quote{
 	font-family: "EB Garamond", serif;
-	font-size: 25px;
+	font-size: 30px;
 	text-align: left;
 	max-width: 60ch
 }
@@ -97,7 +122,7 @@ li{
 	font-weight: 300;
 	font-style: normal;
 	font-size: 50px;
-	color: dodgerblue;
+	color: blue;
 	margin: 2%;
 	text-transform: uppercase;
 }
@@ -119,6 +144,8 @@ li{
 	font-size: 14px;
 	font-weight: light;
 	line-height: 150%;
+	text-align: right;
+	margin-right: 10%;
 }
 
 .introduction-paragraph {
@@ -129,8 +156,6 @@ li{
 .italic{
 	font-style: italic;
 }
-
-
 
 
 em{
