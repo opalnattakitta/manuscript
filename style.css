@@ -3,6 +3,7 @@
 p{
 	max-width: 70ch;
 	margin: 2%;
+	line-height: 125%;
 }
 
 body{
@@ -23,8 +24,6 @@ blockquote{
 	font-size: 40px;
 	font-style: italic;
 	text-align: right;
-	padding-right: 30px;
-	border-right: 10px;
 	margin-left: 25%;
 }
 
@@ -44,9 +43,7 @@ h2{
 section{
 	margin-left: 20%;
 	border-right: 10px;
-	font-family: "Cormorant Garamond", serif;
-	font-weight: 300;
-	font-style: normal;
+	font-family: 'Playfair', serif;
 }
 
 article{
@@ -54,28 +51,50 @@ article{
 }
 
 footer{
-	font-family: "Roboto", sans-serif;
-	font-size: 14px;
-	font-weight: 50;
-	font-style: normal;
+	font-family: monospace;
+	font-size: 13px;
 	display: flex;
 	justify-content: center;
-	padding: 5px;
+	text-align: center;
 	background-color: gray;
 	color: #fff;
+}
+
+aside{
+	font-family: 'Playfair', serif;
+	letter-spacing: 0.02em; 
+	text-indent: 40px;
+}
+
+li{
+	text-indent: 20px;
+}
+
+.indent{
+	text-indent: 35px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+.loose{
+	letter-spacing: 0.02em; 
+}
+
+.highlight{
+	text-decoration-line: underline;
 }
 
 #reading-quote{
 	font-family: "EB Garamond", serif;
 	font-size: 25px;
-	font-style: italic;
 	text-align: left;
 	max-width: 60ch
 }
 
 #reading-response{
 	font-family: "Poppins", sans-serif;
-	font-weight: bold;
+	font-weight: 300;
 	font-style: normal;
 	font-size: 50px;
 	color: dodgerblue;
@@ -95,7 +114,36 @@ footer{
 	font-weight: 500;
 }
 
+#name-response{
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: light;
+	line-height: 150%;
+}
+
 .introduction-paragraph {
-	font-size: 36px;
+	text-indent: 30px;
 	font-weight: bold;
 }
+
+.italic{
+	font-style: italic;
+}
+
+
+
+
+em{
+	font-family: "EB Garamond", serif;
+	font-style: italic; 
+	font-size: 19px;
+}
+
+strong{
+	font-weight: 500;
+}
+
+bold{
+	font-weight: bold;
+}
+
