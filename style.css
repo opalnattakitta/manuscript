@@ -1,9 +1,9 @@
 
 
 p{
-	max-width: 70ch;
+	max-width: 70ch; /* limit the line length*/
 	margin: 2%;
-	line-height: 125%;
+	line-height: 140%; /* Line spacing */
 }
 
 body{
@@ -17,6 +17,11 @@ hgroup{
 	text-align: left;
 	padding-right: 20px;
 	border-right: 10px;
+}
+
+a {
+	background-color:;
+	text-decoration: underline;
 }
 
 blockquote{
@@ -147,6 +152,13 @@ hr {
 	text-align: right;
 	margin-right: 10%;
 }
+
+#response,
+section {
+	margin-top: 4mm;
+}
+
+p:not(:first-child)
 
 .introduction-paragraph {
 	text-indent: 30px;
