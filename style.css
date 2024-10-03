@@ -11,12 +11,7 @@
 	margin-right: 10%;
 }
 
-#reading-quote{
-	font-family: "EB Garamond", serif;
-	font-size: 30px;
-	text-align: left;
-	max-width: 60ch
-}
+#reading-quote{font-size: 25px;}
 
 /*--id styling--*/
 
@@ -32,6 +27,8 @@
 .indent{text-indent: 35px;}
 .uppercase{text-transform: uppercase;}
 .loose{letter-spacing: 0.02em; }
+
+.fairplay {font-family: "Playfair Display", system-ui;}
 /*type-style*/
 /*--class styling--*/
 
@@ -49,12 +46,10 @@ hr {
 	max-width: 100ch;
 }
 
-ul{}
-
 em{
 	font-family: "EB Garamond", serif;
 	font-style: italic; 
-	font-size: 19px;
+	font-size: 21px;
 }
 
 strong{font-weight: 500;}
@@ -64,12 +59,17 @@ bold{font-weight: bold;}
 /*--selector styling--*/
 
 footer{
-	font-family: monospace;
 	font-size: 13px;
 	display: flex;
-	justify-content: center;
-	background-color: gray;
-	color: #fff;
+	color: blue;
+	justify-content: right;
+	text-align: right;
+}
+
+div{
+	color: dimgray;
+	text-align: right;
+	margin-top: 1%;
 }
 
 aside{
@@ -82,7 +82,9 @@ aside{
 	column-rule-width: thin;
 	column-rule-style: solid;
 	column-rule-color: black;
-	max-width: 80ch;
+	max-width: 75ch;
+	margin-left: 1.5%;
+	margin-top: 2%;
 	color: dimgray;
 }
 
@@ -97,14 +99,16 @@ blockquote{
 }
 
 section{
-	margin-top: 9%;
+	margin-top: 12%;
 	margin-left: 25%;
+	margin-bottom: 5%;
 	border-right: 10px;
 }
 
 article{
 	margin: 5%;
 	margin-left: 13%;
+	margin-bottom: 10%;
 }
 
 p{
@@ -130,6 +134,7 @@ h2{
 	font-size: 50px;
 	font-weight: 350;
 	text-transform: uppercase;
+	text-indent: 2%;
 }
 
 h1{
