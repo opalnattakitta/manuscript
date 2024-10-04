@@ -1,6 +1,4 @@
 AUTO-TUNE TYPOGRAPHY
 
 Project Description:
-In this project, reflect my perspective on this AUTOTUNE TYPOGRAPHY 
-
-I explore the idea of autotune typography by using it as a central design element on the website. While I emphasize the autotune style in the design, I also ensure the text is still easy to read by using a simple, clear font like Roboto. This balance helps to make the design thought-provoking while remaining user-friendly. 
+This website reflects my view on the use of Auto-tune typography in design. While I recognize the lack of individuality and the repetition of similar styles in modern graphic design, I don't believe we should completely reject this trend. Instead, I designed this website with an understanding of where these design formulas come from, what they represent, and why they are used. My goal is to make intentional and thoughtful design decisions, rather than just following trends, throughout the design of this site.
