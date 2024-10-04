@@ -16,9 +16,14 @@
 /*--id styling--*/
 
 .highlight{text-decoration-line: underline;}
-.highlight-wave{text-decoration-style: wavy;}
+.highlight-wave{
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
 /*highlight*/
 
+.gradient-blue{linear-gradient(#ffffff,)}
 .blue{color: Blue;}
 .chocolate{color:chocolate;}
 /*color*/
@@ -94,21 +99,21 @@ blockquote{
 	font-style: italic;
 	text-align: right;
 	margin-left: 40%;
-	margin-top: 7%;
-	margin-bottom: 7%;
+	margin-top: 8%;
+	margin-bottom: 8%;
 }
 
 section{
 	margin-top: 12%;
 	margin-left: 25%;
-	margin-bottom: 5%;
+	margin-bottom: 7%;
 	border-right: 10px;
 }
 
 article{
 	margin: 5%;
 	margin-left: 13%;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
 }
 
 p{
@@ -144,4 +149,8 @@ h1{
 }
 
 h1,h2 {font-family: "Poppins", system-ui;}
+
+html{
+	background: linear-gradient(#ffffff);
+}
 
